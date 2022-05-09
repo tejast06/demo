@@ -8,7 +8,7 @@ import java.io.IOException;
 public class SearchFlightResultPage extends TestBase {
 
     public SearchFlightResultPage() throws IOException, IOException {
-        super();
+
     }
 
     /**
