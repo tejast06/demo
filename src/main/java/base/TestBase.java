@@ -14,10 +14,7 @@ public class TestBase {
     public static WebDriver driver;
 
 
-    public TestBase() throws IOException, IOException {
 
-
-    }
 
     //initialization of chrome browser and navigate to url
     public static void initialization() {
