@@ -18,6 +18,7 @@ public class TestBase {
         prop = new Properties();
         FileInputStream ip = new FileInputStream("C:\\Users\\impac\\eclipse-workspace\\DemoProject\\src\\main\\java\\config\\config.properties");
         prop.load(ip);
+
     }
 
     //initialization of chrome browser and navigate to url
