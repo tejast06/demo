@@ -32,10 +32,6 @@ public class TestFlightSearch extends TestBase implements TestDataFlightBooking 
         homePage = new HomePage();
     }
 
-
-
-
-
     @Test(enabled = false)
     public void searchFlight() throws InterruptedException, IOException {
 
