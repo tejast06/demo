@@ -91,6 +91,7 @@ public class HomePage extends TestBase {
     public void clickOnDepartureDateField() throws InterruptedException {
         originDateField.click();
         Thread.sleep(2000);
+
     }
 
     /**

@@ -12,12 +12,10 @@ import java.util.concurrent.TimeUnit;
 public class TestBase {
 
     public static WebDriver driver;
-    public static Properties prop;
+
 
     public TestBase() throws IOException, IOException {
-        prop = new Properties();
-        FileInputStream ip = new FileInputStream("C:\\Users\\impac\\eclipse-workspace\\DemoProject\\src\\main\\java\\config\\config.properties");
-        prop.load(ip);
+
 
     }
 
