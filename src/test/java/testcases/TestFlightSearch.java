@@ -31,7 +31,11 @@ public class TestFlightSearch extends TestBase implements TestDataFlightBooking 
         homePage = new HomePage();
     }
 
-    @Test
+
+
+
+
+    @Test(enabled = false)
     public void searchFlight() throws InterruptedException, IOException {
 
         //Validate that Page title is display on Home page
