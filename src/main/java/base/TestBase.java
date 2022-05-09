@@ -29,6 +29,5 @@ public class TestBase {
         driver.get(prop.getProperty("url"));
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-
     }
 }
