@@ -22,6 +22,7 @@ public class TestFlightSearch extends TestBase implements TestDataFlightBooking 
 
     public TestFlightSearch() throws IOException, IOException {
         super();
+
     }
 
     @BeforeTest
